@@ -1,0 +1,9 @@
+2025-06-12 01:44:26,128 - WARNING - Invalid email format: aliceexample.com
+2025-06-12 01:44:26,129 - WARNING - Skipped row due to invalid fields: {'name': 'Alice', 'email': 'aliceexample.com', 'role': 'admin'}
+2025-06-12 01:44:26,129 - WARNING - Missing required field: {'name': 'Bob', 'email': '', 'role': 'user'}
+2025-06-12 01:44:26,129 - WARNING - Skipped row due to invalid fields: {'name': 'Bob', 'email': '', 'role': 'user'}
+2025-06-12 01:44:27,295 - ERROR - Failed to create user: charlie@example.com, Status: 403
+2025-06-12 01:45:19,416 - ERROR - Failed to create user: alice@example.com, Status: 403
+2025-06-12 01:45:19,417 - WARNING - Missing required field: {'name': 'Bob', 'email': '', 'role': 'user'}
+2025-06-12 01:45:19,417 - WARNING - Skipped row due to invalid fields: {'name': 'Bob', 'email': '', 'role': 'user'}
+2025-06-12 01:45:20,644 - ERROR - Failed to create user: charlie@example.com, Status: 403
