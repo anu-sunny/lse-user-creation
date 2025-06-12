@@ -44,7 +44,7 @@ def is_valid_row(row, required_fields):
     """
     #for field in required_fields:
         #if not row.get(field) or not row[field].strip():
-    if not all(row.get(field) or row.get(field).strip() for field in required_fields):
+    if not all(row.get(field) and row.get(field).strip() for field in required_fields):
         logger.warning(f"Missing required field: {row}")
         return False
 

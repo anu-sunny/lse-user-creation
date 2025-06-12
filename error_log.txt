@@ -7,3 +7,7 @@
 2025-06-12 01:45:19,417 - WARNING - Missing required field: {'name': 'Bob', 'email': '', 'role': 'user'}
 2025-06-12 01:45:19,417 - WARNING - Skipped row due to invalid fields: {'name': 'Bob', 'email': '', 'role': 'user'}
 2025-06-12 01:45:20,644 - ERROR - Failed to create user: charlie@example.com, Status: 403
+2025-06-12 07:28:27,943 - ERROR - Failed to create user: alice@example.com, Status: 403
+2025-06-12 07:28:27,944 - WARNING - Missing required field: {'name': 'Bob', 'email': '', 'role': 'user'}
+2025-06-12 07:28:27,944 - WARNING - Skipped row due to invalid fields: {'name': 'Bob', 'email': '', 'role': 'user'}
+2025-06-12 07:28:29,104 - ERROR - Failed to create user: charlie@example.com, Status: 403
