@@ -8,7 +8,6 @@ Author: Anu
 Date: 2025-06-11
 """
 
-
 import csv
 #importing required functions
 from log_config import logger				
@@ -35,6 +34,7 @@ def process_data(row):
     if create_new_user(row):
         print(f"User created: {row['email']}")
     else:
+        #Keep 'unknown' as a safe, defensive fallback.
         #logger.error(f"Error creating user: {row.get('email', 'unknown')}")
         print(f"Error creating user: {row.get('email', 'unknown')}")
       

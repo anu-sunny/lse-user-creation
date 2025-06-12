@@ -2,6 +2,9 @@
 api_requests.py
 
 Handles API requests to create users.
+
+Author: Anu
+Date: 2025-06-11
 """
 import requests
 from log_config import logger

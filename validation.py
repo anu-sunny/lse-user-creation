@@ -2,8 +2,11 @@
 validation.py
 
 Contains validation functions for checking CSV row data.
-"""
 
+Author: Anu
+Date: 2025-06-11
+"""
+#import built in module for Regular Expression
 import re
 from log_config import logger
 
@@ -22,7 +25,7 @@ def is_valid_email(email):
         return False
 
     # Basic email pattern
-    pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'   #r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     if not re.match(pattern, email.strip()) is not None:
         logger.warning(f"Invalid email format: {email}")
         return False

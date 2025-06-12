@@ -2,6 +2,9 @@
 log_config.py
 
 Sets up logging to log errors and warnings to a file.
+
+Author: Anu
+Date: 2025-06-11
 """
 # importing pythons built-in logging module for recording messages and error to a log file
 import logging
